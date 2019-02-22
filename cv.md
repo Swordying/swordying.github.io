@@ -38,4 +38,5 @@
 ## 附录、其他
 - 个人博客 [http://www.zhangjianying.cn](http://www.zhangjianying.cn "琴诗酒剑")
 - Gitee 码云：[https://gitee.com/swordying](https://gitee.com/swordying "Swordying 码云")
-- 码云 Pages：[https://swordying.gitee.io](https://swordying.gitee.io "Swordying 码云主页")
+- 扫描二维码手机查看  
+![扫描二维码手机查看简历](./statics/img/cv_qr_code.jpg "扫描二维码手机查看简历")
