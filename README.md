@@ -1,7 +1,7 @@
 # Sudo乔木 的个人主页
 
 ## 项目介绍
-Sudo乔木 的个人主页，[https://swordying.gitee.io](https://swordying.gitee.io "https://swordying.gitee.io")
+Sudo乔木 的个人主页，[http://qiaomu.zhangjianying.cn](http://qiaomu.zhangjianying.cn "http://qiaomu.zhangjianying.cn")
 
 ## 附录、其他
 - 个人博客 [http://www.zhangjianying.cn](http://www.zhangjianying.cn "琴诗酒剑")
