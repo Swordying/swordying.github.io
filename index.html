@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>张剑营 的个人网站</title>
+    <link rel="shortcut icon" href="./statics/img/web_logo.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="张剑营,个人主页,博客,文章" />
+    <meta name="description" content="张剑营的个人主页，个人作品导航，博客，文章" />
+    <meta name="copyright" content="http://www.zhangjianying.cn" />
+    <meta name="author" content="张剑营" />
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style>
+        body{
+            padding-top:50px;
+            min-width:300px;
+        }
+        #header .web_logo{
+            max-height:24px;
+        }
+        /* #main .main_header{
+            color:white;
+            background:#6E8976 url(./statics/img/bs-docs-masthead-pattern.png) repeat center center;
+        } */
+        /* #main .main{
+
+        } */
+        #main .code{
+            background-color: #283646;
+            color: #ddd;
+            padding-top:1rem;
+            padding-left:2rem;
+            padding-bottom:1rem;
+        }
+        #main .my_page{
+            width:100%;
+            min-height:calc(100vh - 86px);
+        }
+        #footer .footer_motto{
+            line-height:30px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <!-- navbar-inverse|default -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#web_navbar-collapse-index" aria-expanded="false">
+                        <span class="sr-only">导航切换</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand navbar_web_logo" href="">
+                        <img src="./statics/img/web_logo.png" alt="张剑营" height=30 class="web_logo" />
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-right" id="web_navbar-collapse-index">
+                    <ul class="nav navbar-nav web_nav_bar">
+
+                        <li role="presentation" class="active my_contents" data-content_item="my_blog" title="博客文章">
+                            <a href="javascript:;">博客文章</a>
+                        </li>
+
+                        <li role="presentation" class="my_contents" data-content_item="my_gitee" title="Gitee 码云">
+                            <a href="javascript:;">Gitee 码云</a>
+                        </li>
+
+                        <li role="presentation" class="my_contents" data-content_item="my_loading-html" title="loading-html">
+                            <a href="javascript:;">loading-html</a>
+                        </li>
+
+                        <li role="presentation" class="my_contents" data-content_item="my_self" title="关于我">
+                            <a href="javascript:;">关于我</a>
+                        </li>
+
+                    </ul> 
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <div id="main">
+
+        <div class="my_content my_blog">
+            <iframe class="my_page" src="https://gitee.com/swordying/swordying/tree/master/article"></iframe>
+        </div>
+
+        <div class="my_content my_gitee" hidden>
+            <iframe class="my_page" src="https://gitee.com/swordying"></iframe>
+        </div>
+
+        <div class="my_content my_loading-html" hidden>
+            <iframe class="my_page" src="https://loading-html.github.io"></iframe>
+        </div>
+
+        <div class="my_content my_self my_page" hidden>
+            <div class="container">
+                <div class="code">
+                    <p>&lt;?php</p>
+                    <p>&nbsp;&nbsp; echo "PHP 程序员一枚";</p>
+                    <p>&nbsp;&nbsp; echo "邮箱：251118234@qq.com";</p>
+                    <p>?&gt;</p>
+                </div>
+                
+                <div class="text-right">
+                    <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=wvD38-Pz_vDx9oKzs_yhra8" style="text-decoration:none;"></a>
+                    <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=wvD38-Pz_vDx9oKzs_yhra8" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png"/></a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <footer id="footer">
+        <div class="container-fluid text-center">
+            <div class="container footer_motto">
+                <p>代码如诗诗如君</p>
+            </div>
+        </div>
+    </footer>
+    <script id="loading-html" src="https://loading-html.gitee.io/statics/plugs/loading-html/loading-html.min.js"></script>
+    <script>
+        LoadingHtml.init();
+    </script>
+
+    <script>
+       $(function(){
+            $(".my_contents").click(function(){
+                var data_content_item = $(this).data("content_item");
+                $(".my_contents").removeClass("active");
+                $(this).addClass("active");
+                $(".my_content").hide();
+                $('.'+data_content_item).show();
+            });
+       });
+   </script>
+
+    <script>
+        $(function(){
+            console.log("欢迎访问本页面...");
+            console.log("Gitee 码云：https://gitee.com/swordying");
+            console.log("个人主页：http://www.zhangjianying.cn");
+        });
+    </script>
+</body>
+</html>
